@@ -12,6 +12,16 @@ $c-card-background-color: $white;
   grid-template-areas:
     "left right";
 
+  box-shadow: 0 0px 10px rgba(31,25,49,.1);
+  transition: .3s ease-out;
+
+  // &:hover {
+  &--pulse {
+    transform: translateY(-5px) scale(1.02);
+  }
+
+ 
+
   &__content {
     grid-area: left;
     padding: 50px;
