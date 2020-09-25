@@ -1,0 +1,30 @@
+/* parcel js has an issue importing fonts so puttig this in here */
+
+@font-face {
+    font-family:"AvenirLTStd-Heavy";
+    src:url("./../fonts/AvenirLTStd-Heavy.woff2") format("woff2"),
+    url("./../fonts/AvenirLTStd-Heavy.woff") format("woff"),
+    url("./../fonts/AvenirLTStd-Heavy.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
+
+
+@font-face {
+    font-family:"AvenirLTStd-Medium";
+    src:url("./../fonts/AvenirLTStd-Medium.woff2") format("woff2"),
+    url("./../fonts/AvenirLTStd-Medium.woff") format("woff"),
+    url("./../fonts/AvenirLTStd-Medium.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
+
+
+@font-face {
+    font-family:"AvenirLTStd-Roman";
+    src:url("./../fonts/AvenirLTStd-Roman.woff2") format("woff2"),
+    url("./../fonts/AvenirLTStd-Roman.woff") format("woff"),
+    url("./../fonts/AvenirLTStd-Roman.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+    

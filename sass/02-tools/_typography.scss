@@ -1,0 +1,27 @@
+
+@mixin typography {
+    font-family: $font-family-sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 140.2%;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+@mixin typography-headings {
+    @include typography();
+    font-weight: 800;
+}
+
+@mixin typography-h1 {
+    @include typography-headings();
+    font-size: 35px;
+}
+
+@mixin typography-h2 {
+    @include typography();
+    font-size: 29px;
+}

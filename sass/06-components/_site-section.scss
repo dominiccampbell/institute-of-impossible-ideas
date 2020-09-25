@@ -1,0 +1,14 @@
+.c-site-section {
+
+    padding: 60px 0;
+
+    &--primary {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &--grey {
+        background-color: $light-grey;
+    }
+    
+}

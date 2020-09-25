@@ -1,0 +1,4 @@
+.c-skip-link {
+    @include sr-only-focusable;
+    @include c-button;
+}

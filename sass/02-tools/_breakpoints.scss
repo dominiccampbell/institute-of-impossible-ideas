@@ -1,0 +1,31 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+   @mixin mobile {
+    @media only screen and (max-width: 40.0625em) {
+     @content;
+    }
+   }
+
+
+   @mixin custom-breakpoint($max-width) {
+    @media only screen and (max-width: $max-width) {
+      @content;
+     }
+   }
+
+
+
+
+
+  
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }

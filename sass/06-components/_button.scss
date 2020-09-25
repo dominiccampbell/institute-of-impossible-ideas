@@ -1,0 +1,36 @@
+
+$c-button-white-background-color: $white !default;
+$c-button-white-text-color: $primary !default;
+
+
+$c-button-primary-background-color: $primary !default;
+$c-button-primary-text-color: $white !default;
+$c-button-primary-border-color: $primary !default;
+
+
+$c-button-focus-color: $focus-color !default;
+
+
+
+.c-button {
+    @include c-button;
+
+    &--block {
+        width: 100%;
+        display: block;
+    }
+
+    &--white {
+        background-color: $c-button-white-background-color;
+        color: $c-button-white-text-color;
+    }
+
+    &--primary {
+        background-color: $c-button-primary-background-color;
+        color: $c-button-primary-text-color;
+        border-color: $c-button-primary-border-color;
+    }
+
+
+   @include focus-style;
+}

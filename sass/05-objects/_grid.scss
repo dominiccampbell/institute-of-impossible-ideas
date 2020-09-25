@@ -1,0 +1,30 @@
+.o-grid {
+    &--container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+    &--full {
+        grid-column: 1/-1;
+    }
+
+
+    // 2/3 cols full
+    &--main {
+        grid-column: 1;
+    }
+      
+
+    @include mobile() {
+        &--container {
+            display: block;
+            width: 95%;
+            overflow: hidden;
+        }
+    }
+}

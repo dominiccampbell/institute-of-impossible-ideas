@@ -1,0 +1,29 @@
+$header-bg-color: $secondary !default;
+$header-text-color: $white !default;
+
+.c-header {
+    width: 100%;
+    background-color: $header-bg-color;
+    padding: 20px;
+    
+
+    &--container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+    &--logo {
+        flex-grow: 0;
+        margin: 0 20px 0 0;
+    }
+
+    &--title {
+        flex-grow: 1;
+        font-size: 23px;
+        color: $header-text-color;
+    }
+}
