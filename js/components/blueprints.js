@@ -9,10 +9,6 @@ export class Blueprints {
     this.elm = elm;
     this.blueprint = this.createBlueprintDiv();
     this.elm.prepend(this.blueprint);
-  
-
-
-    console.log(this.blueprint);
 
     new simpleParallax(this.blueprint, {
       // scale: 1,

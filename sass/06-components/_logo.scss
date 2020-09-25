@@ -1,6 +1,91 @@
 .c-logo {
-    background: url('#{$img-dir}/iii-logo.svg') no-repeat;
-    width: 30px;
-    height: 39px;
-    background-size: contain;
+  background: url('#{$img-dir}/iii-logo.svg') no-repeat;
+  width: 30px;
+  height: 39px;
+  background-size: contain;
+}
+
+#logo {
+  position: relative;
+}
+
+#logo-first-i,
+#logo-second-i,
+#logo-third-i {
+  position: absolute;
+  height: 5000px;
+  y: 0;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+#logo-first-i {
+  animation-name: first-i;
+  y: 156;
+
+  @keyframes first-i {
+    40% {
+      y: 0
+    }
+
+    45% {
+      y: -10
+    }
+
+    100% {
+      y: 156
+    }
+  }
+}
+
+
+
+#logo-second-i {
+  animation-name: second-i;
+  animation-delay: .5s;
+  y: 0;
+
+  @keyframes second-i {
+    20% {
+      y: 156
+    }
+
+    25% {
+      y: 136
+    }
+
+    100% {
+      y: 0
+    }
+
+
+
+  }
+
+
+}
+
+#logo-third-i {
+  animation-name: third-i;
+  animation-delay: .75s;
+  y: 78;
+
+  @keyframes third-i {
+    20% {
+      y: 196
+    }
+
+    35% {
+      y: 186
+    }
+
+    100% {
+      y: 70
+    }
+
+
+
+  }
+
 }
