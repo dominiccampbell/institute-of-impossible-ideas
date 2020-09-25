@@ -1,7 +1,7 @@
 .o-grid {
     &--container {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: minmax(min-content, 500px) 1fr;
         grid-gap: 1rem;
         width: 80%;
         margin: 0 auto;
@@ -23,7 +23,7 @@
     @include mobile() {
         &--container {
             display: block;
-            width: 95%;
+            width: 90%;
             overflow: hidden;
         }
     }

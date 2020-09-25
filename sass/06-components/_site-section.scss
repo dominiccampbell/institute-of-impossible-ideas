@@ -2,6 +2,15 @@
 
     padding: 60px 0;
 
+    &--heading {
+        padding-top: 80px;
+    }
+
+    &--blueprint {
+        background-color: $primary;
+        color: $white;
+    }
+
     &--primary {
         background-color: $primary;
         color: $white;
@@ -9,6 +18,17 @@
 
     &--grey {
         background-color: $light-grey;
+    }
+
+
+    &__parallax {
+        background: url('#{$img-dir}/graph-paper.svg') repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
     }
     
 }

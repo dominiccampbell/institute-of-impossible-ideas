@@ -13,12 +13,13 @@
 
 @mixin typography-headings {
     @include typography();
+    font-family: $font-family-sans-serif-bold;
     font-weight: 800;
 }
 
 @mixin typography-h1 {
     @include typography-headings();
-    font-size: 35px;
+    font-size: 40px;
 }
 
 @mixin typography-h2 {

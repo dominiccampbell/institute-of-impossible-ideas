@@ -2,10 +2,18 @@
 $c-button-white-background-color: $white !default;
 $c-button-white-text-color: $primary !default;
 
+$c-button-white-background-color-hover: $grey !default;
+$c-button-white-background-color-active: $grey2 !default;
+
 
 $c-button-primary-background-color: $primary !default;
 $c-button-primary-text-color: $white !default;
 $c-button-primary-border-color: $white !default;
+
+$c-button-primary-text-color-hover: $grey;
+$c-button-primary-border-color-hover: $grey;
+$c-button-primary-text-color-active: $grey2;
+$c-button-primary-border-color-active: $grey2;
 
 
 $c-button-focus-color: $focus-color !default;
@@ -15,6 +23,7 @@ $c-button-focus-color: $focus-color !default;
 .c-button {
     @include c-button;
 
+
     &--block {
         width: 100%;
         display: block;
@@ -23,12 +32,32 @@ $c-button-focus-color: $focus-color !default;
     &--white {
         background-color: $c-button-white-background-color;
         color: $c-button-white-text-color;
+
+        &:hover {
+            background-color: $c-button-white-background-color-hover;
+        }
+
+        &:active {
+            background-color: $c-button-white-background-color-active;
+        }
     }
 
     &--primary {
         background-color: $c-button-primary-background-color;
         color: $c-button-primary-text-color;
         border-color: $c-button-primary-border-color;
+
+        &:hover {
+            color: $c-button-primary-text-color-hover;
+            border-color: $c-button-primary-border-color-hover;
+        }
+
+        &:active {
+            color: $c-button-primary-text-color-active;
+            border-color: $c-button-primary-border-color-active;
+        }
+
+
     }
 
 
