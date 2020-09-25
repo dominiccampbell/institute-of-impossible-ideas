@@ -23,7 +23,7 @@ export class Cards {
   }
 
   scroll() {
-    console.log(this.elm.querySelector('.c-card__meta').innerHTML, this.isElementInViewport())
+    // console.log(this.elm.querySelector('.c-card__meta').innerHTML, this.isElementInViewport())
     if (this.isElementInViewport()) {
         if(!this.elm.classList.contains('c-card--pulse')) 
             this.elm.classList.add('c-card--pulse');

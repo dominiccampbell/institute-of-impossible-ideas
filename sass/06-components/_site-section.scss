@@ -1,6 +1,8 @@
 .c-site-section {
-
+    position: relative;
     padding: 60px 0;
+    overflow: hidden;
+
 
     &--heading {
         padding-top: 80px;
@@ -8,6 +10,7 @@
 
     &--blueprint {
         background-color: $primary;
+        // background: url('#{$img-dir}/graph-paper.svg') $primary repeat;
         color: $white;
     }
 
@@ -20,15 +23,11 @@
         background-color: $light-grey;
     }
 
-
-    &__parallax {
-        background: url('#{$img-dir}/graph-paper.svg') repeat;
-        width: 100%;
-        height: 100%;
+    &__blueprint-image {
         position: absolute;
         top: 0;
-        left: 0;
-        z-index: 0;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: repeat;
     }
-    
 }
