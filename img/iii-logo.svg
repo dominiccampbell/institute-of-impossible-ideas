@@ -1,5 +1,94 @@
-<svg id="logo" width="30" height="39" viewBox="0 0 364 429" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect id="logo-first-i" y="156" width="91" height="273" fill="white"/>
-    <rect id="logo-second-i" x="130" y="0" width="91" height="429" fill="white"/>
-    <rect id="logo-third-i" x="273" y="78" width="91" height="351" fill="white"/>
+<svg width="364" height="429" viewBox="0 0 364 429" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<style type="text/css">
+
+#logo {
+  position: relative;
+}
+
+.logo-first-i,
+.logo-second-i,
+.logo-third-i {
+  position: absolute;
+  height: 450px;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+.logo-first-i {
+  animation-name: first-i;
+  transform: translate3d(0,156px,0)
+}
+
+@keyframes first-i {
+    40% {
+        transform: translate3d(0,0px,0)
+    }
+    45% {
+        transform: translate3d(0,-10px,0)
+    }
+    100% {
+        transform: translate3d(0,156px,0)
+    }
+}
+
+.logo-second-i {
+  animation-name: second-i;
+  animation-delay: .5s;
+  transform: translate3d(0,0px,0)
+}
+
+@keyframes second-i {
+    20% {
+
+  transform: translate3d(0,156px,0)
+    }
+
+    25% {
+
+  transform: translate3d(0,136px,0)
+    }
+
+    100% {
+
+  transform: translate3d(0,0px,0)
+    }
+
+}
+
+.logo-third-i {
+  animation-name: third-i;
+  animation-delay: .75s;
+  transform: translate3d(0,78px,0)
+}
+
+
+@keyframes third-i {
+    20% {
+        
+  transform: translate3d(0,196px,0)
+    }
+
+    35% {
+        
+  transform: translate3d(0,186px,0)
+    }
+
+    100% {
+        
+  transform: translate3d(0,70px,0)
+    }
+
+}
+</style>
+<g id="logo">
+
+    <rect class="logo-first-i" width="91" height="273" fill="white"/>
+    <rect class="logo-second-i" x="130"  width="91" height="429" fill="white"/>
+    <rect class="logo-third-i" x="273" width="91" height="351" fill="white"/>
+    </g>
 </svg>  
+
+
+
