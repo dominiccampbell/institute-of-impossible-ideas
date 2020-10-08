@@ -1,6 +1,6 @@
-@mixin focus-style() {
+@mixin focus-style {
     &:focus {
-        outline: 4px solid $c-button-focus-color;
+        outline: 4px solid $focus-color;
         outline-offset: 0;
         // background-color: $c-button-focus-color;
         box-shadow: none;

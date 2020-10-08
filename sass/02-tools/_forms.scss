@@ -1,0 +1,11 @@
+@mixin form-input {
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid $black;
+
+    @include focus-style;
+
+    // &:focus {
+    //    border-width: 4px;
+    // }
+}

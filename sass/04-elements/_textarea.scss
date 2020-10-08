@@ -3,5 +3,9 @@
  */
 
  textarea {
+    @include typography();
+    @include form-input();
+
     resize: vertical;
+    min-height: 150px;
   }
