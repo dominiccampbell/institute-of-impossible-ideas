@@ -35,10 +35,17 @@ $c-button-focus-color: $focus-color !default;
 
         &:hover {
             background-color: $c-button-white-background-color-hover;
+            color: $c-button-white-text-color;
+        }
+
+        &:visited {
+            background-color: $c-button-white-background-color;
+            color: $c-button-white-text-color;
         }
 
         &:active {
             background-color: $c-button-white-background-color-active;
+            color: $c-button-white-text-color;
         }
     }
 
@@ -50,6 +57,12 @@ $c-button-focus-color: $focus-color !default;
         &:hover {
             color: $c-button-primary-text-color-hover;
             border-color: $c-button-primary-border-color-hover;
+        }
+
+        &:visited {
+            background-color: $c-button-primary-background-color;
+            color: $c-button-primary-text-color;
+            border-color: $c-button-primary-border-color;
         }
 
         &:active {
