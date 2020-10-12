@@ -5,6 +5,8 @@
    ========================================================================== */
 
 
+   $tablet-breakpoint: 70.0625em;
+
    @mixin mobile {
     @media only screen and (max-width: 40.0625em) {
      @content;

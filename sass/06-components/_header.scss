@@ -4,7 +4,7 @@ $header-text-color: $white !default;
 .c-header {
     width: 100%;
     background-color: $header-bg-color;
-    padding: 20px;
+    padding: 20px 0;
     
 
     &--container {
@@ -26,4 +26,20 @@ $header-text-color: $white !default;
         font-size: 23px;
         color: $header-text-color;
     }
+
+    &--nav {
+        flex-grow: 1;
+    }
+
+    @include custom-breakpoint(60em) {
+        .c-header--container {
+            flex-direction: column;
+        }
+    
+        .c-header--nav {
+            padding-top: 10px;
+        }
+    }
+
+
 }

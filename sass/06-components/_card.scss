@@ -72,7 +72,7 @@ $c-card-background-color: $white;
 
   // stop it getting too smooshy
 //   @include mobile() {
-    @include custom-breakpoint(70.0625em) {
+    @include custom-breakpoint($tablet-breakpoint) {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 1fr;

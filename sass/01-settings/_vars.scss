@@ -1,5 +1,16 @@
+$fg-blue: #3c4b6e;
+$fg-pink: #e6007e;
+$fg-purple: #442161;
+$fg-light-blue: #bee1ff;
+
+$fd-secondary-blue: #0064d2;
+$fd-secondary-green: #00a19a;
+$fd-secondary-purple: #8e42a6;
+
+
 $focus-color: #F2B413;
-$primary: #1813F2;
+$primary: $fg-blue; //#1813F2;
+
 $secondary: #000000;
 $light-grey: #EFEFF0;
 $lightest-grey: hsl(0, 0%, 94%);
