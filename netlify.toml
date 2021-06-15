@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://impossibleideas.wearefuturegov.com"
+  to = "https://instituteofimpossibleideas.co.uk"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://impossibleideas.wearefuturegov.com"
+  to = "http://instituteofimpossibleideas.co.uk"
+  status = 301
+  force = true
